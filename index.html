@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{
+            background-color: rgb(11, 0, 71);
+            color: #fff;
+            text-align: center;
+            font: normal 15pt arial;
+        }
+        
+        section{
+            background-color: #fff; 
+            color: black; 
+            border-radius: 10px;
+            padding: 4px;
+            width: 500px;
+            margin: auto;
+            margin-top: 7%;
+        }
+        
+        footer{
+            font-family: initial;
+        }
+
+        h1{
+            text-align: center;
+            background-color: rgb(10, 0, 97);
+            color: #fff;
+            border-radius: 100px;
+            padding: 5px;
+            width: 25rem;
+            margin-left: 50px;
+        }
+        
+        div{
+            margin: 10px 5px 15px 5px;
+            font-family:unset;
+            text-align: left;
+            align-items: left;
+        }
+
+        input{
+            border: none;
+            border-bottom: solid rgb(10, 0, 97) 2px;
+            outline: none;
+            transition: .2s;
+            margin: 10px 0px 10px 0px;
+            width: 100%;
+        }
+
+        input:focus{
+            background-color: rgb(236, 235, 235);
+            border-top-left-radius: 5px ;
+            border-top-right-radius: 5px ;
+            border-color: rgb(15, 0, 146);
+        }
+
+        label{
+            font-family: initial;
+            font-size: 15px;
+        }
+
+        button{
+            margin: 10px 5px 25px 5px;
+            background-color: rgb(10, 0, 97);
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            width: 300px;
+            height: 40px;
+            transition: .4s;
+            cursor: pointer;
+        }
+
+        button:active{
+        background-color: rgb(15, 0, 146);
+        color: #fff;
+
+        }
+
+
+        </style>
+        
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Formulario de pesquisa</h1>
+
+
+            <label for="name">nome</label>
+            <input type="text" placeholder="Digite seu nome..." id="name">
+
+            <br>
+            <label for="years">idade</label>
+            <input type="number" placeholder="Digite sua idade..." id="years">
+
+            <br>
+            <label for="date">data de nascimento</label>
+            <input type="date" id="date">
+
+            <br>
+            <label for="tel">telefone</label>
+            <input type="text" placeholder="Digite seu telefone..." id="tel">
+
+            <br>
+            <label for="city">cidade</label>
+            <input type="text" placeholder="Digite sua cidade..." id="city">
+
+            <br>
+            <label for="profession">profissao</label>
+            <input type="text" placeholder="Digite sua profissao..." id="profession">
+        </div>
+
+        <button>enviar</button>
+    </section>
+    <footer>
+        <p>by:mateus.m.b</p>
+    </footer>
+
+</body>
+</html>
